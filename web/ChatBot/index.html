@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Chat Toggle Button -->
+    <button id="chat-toggle" onclick="toggleChat()" title="Chat with us">💬</button>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget" class="hidden">
+        <div id="chat-header">
+            <div class="avatar">🤖</div>
+            <div class="info">
+                <p class="title">Luxury Stay Hotel</p>
+                <p class="status">● Online</p>
+            </div>
+            <button id="close-btn" onclick="closeChat()" title="Close">✕</button>
+        </div>
+
+        <div id="chat-box">
+            <div class="msg bot">👋 Welcome! Ask me about rooms, prices, or bookings.</div>
+        </div>
+
+      <div id="input-area">
+    <button id="micBtn" title="Speak">🎤</button>
+
+    <input id="userInput"
+           type="text"
+           placeholder="Type or speak..."
+           autocomplete="off" />
+
+    <button id="send-btn"
+            onclick="sendMessage()"
+            title="Send">➤</button>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

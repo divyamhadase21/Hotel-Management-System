@@ -1,0 +1,9 @@
+nbproject/private/
+build/
+dist/
+*.class
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+lib/mysql-connector-j-9.7/
